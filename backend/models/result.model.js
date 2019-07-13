@@ -3,6 +3,11 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const resultSchema = new Schema({
+    roll: {
+        type: Number,
+        required: true,
+        unique: true
+    },
     reg: {
         type: Number,
         required: true,
