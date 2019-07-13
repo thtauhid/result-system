@@ -19,6 +19,13 @@ connection.once('open', () => {
     console.log('MongoDB Connected!')
 })
 
+// Routers
+const studentRouter = require('./routes/student')
+const resultRouter = require('./routes/result')
+
+// Adding to server
+app.use('/student', studentRouter)
+app.use('/result', resultRouter)
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)
