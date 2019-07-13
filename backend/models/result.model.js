@@ -23,3 +23,7 @@ const resultSchema = new Schema({
 }, {
     timestamps: true
 })
+
+const Result = mongoose.model('Result', resultSchema)
+
+module.exports = Result
