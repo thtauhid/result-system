@@ -5,17 +5,17 @@ const Schema = mongoose.Schema
 const studentSchema = new Schema({
     roll: {
         type: Number,
-        require: true,
+        required: true,
         unique: true
     },
     reg: {
         type: Number,
-        require: true,
+        required: true,
         unique: true
     },
     year: {
         type: Number,
-        require: true,
+        required: true,
     }
 
 }, {
