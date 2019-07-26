@@ -12,12 +12,14 @@ View Result		: http://localhost:3000/
 
 ### Back End
 Add Student		: http://localhost:5000/student/add		[API passed] 
+
 `	[POST]
 	{
 		"roll": 121264,
 		"reg": 14124565
 	}
 `
+
 Add Result		: http://localhost:5000/result/add		[API passed]
 
 `	[POST]
