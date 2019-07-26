@@ -12,10 +12,6 @@ const studentSchema = new Schema({
         type: Number,
         required: true,
         unique: true
-    },
-    year: {
-        type: Number,
-        required: true,
     }
 
 }, {

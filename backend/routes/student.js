@@ -13,11 +13,9 @@ router.route('/list').get((req, res) => {
 router.route('/add').post((req, res) => {
     const roll = req.body.roll
     const reg = req.body.reg
-    const year = req.body.year
     const newStudent = new Student({
         roll,
-        reg,
-        year
+        reg
     })
 
     // Save to DB
