@@ -80,7 +80,7 @@ export default class AddNewResult extends Component {
 
         console.log(result)
 
-        axios.post('http://localhost:5000/result')
+        axios.post('http://localhost:5000/result/add', result)
             .then(res => console.log(res.data))
     }
 
@@ -107,10 +107,10 @@ export default class AddNewResult extends Component {
 						<input type="text" name="reg" className="form-control" placeholder="Registration" value={this.state.reg} onChange={this.onChangeReg} />
 					</div>
 					<div className="form-group">
-						<input type="text" name="ben" className="form-control" placeholder="Bengali" value={this.state.bengali} onChange={this.onChangeBen} />
+						<input type="text" name="bengali" className="form-control" placeholder="Bengali" value={this.state.bengali} onChange={this.onChangeBen} />
 					</div>
 					<div className="form-group">
-						<input type="text" name="eng" className="form-control" placeholder="English" value={this.state.english} onChange={this.onChangeEng}  />
+						<input type="text" name="english" className="form-control" placeholder="English" value={this.state.english} onChange={this.onChangeEng}  />
 					</div>
 					<div className="form-group">
 						<input type="text" name="math" className="form-control" placeholder="Math" value={this.state.math} onChange={this.onChangeMath}  />
