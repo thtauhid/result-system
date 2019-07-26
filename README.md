@@ -3,10 +3,6 @@ Add Student		: http://localhost:3000/add/student
 
 Add Result		: http://localhost:3000/add/result
 
-Edit Student	: 
-
-Edit Result		: 
-
 View Result		: http://localhost:3000/
 
 
@@ -20,7 +16,8 @@ Add Student		: http://localhost:5000/student/add		[API passed]
 	}
 `
 
-Add Result		: http://localhost:5000/result/add		[API passed]
+
+Add Result		: http://localhost:5000/result/add
 
 `	[POST]
 	{
@@ -32,11 +29,14 @@ Add Result		: http://localhost:5000/result/add		[API passed]
 	}
 `
 
-Student List	: http://localhost:5000/student/list	[API passed]
+
+Student List	: http://localhost:5000/student/list
+
 `	[GET]
 `
 
-View Result		: http://localhost:5000/result/view		[API passed]
+
+View Result		: http://localhost:5000/result/view
 
 `	[GET]
 	{
@@ -44,7 +44,3 @@ View Result		: http://localhost:5000/result/view		[API passed]
 		"reg": 14124565
 	}
 `
-
-Edit Student	:
-
-Edit Result		: 
