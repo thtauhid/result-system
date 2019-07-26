@@ -1,11 +1,14 @@
 ### Front End
 Add Student		: http://localhost:3000/add/student
+
 Add Result		: http://localhost:3000/add/result
 
-Edit Student	:
-Edit Result		:
+Edit Student	: 
 
-View Result		: 
+Edit Result		: 
+
+View Result		: http://localhost:3000/
+
 
 ### Back End
 Add Student		: http://localhost:5000/student/add		[API passed] 
@@ -16,6 +19,7 @@ Add Student		: http://localhost:5000/student/add		[API passed]
 	}
 `
 Add Result		: http://localhost:5000/result/add		[API passed]
+
 `	[POST]
 	{
 		"roll": 121264,
@@ -25,11 +29,13 @@ Add Result		: http://localhost:5000/result/add		[API passed]
 		"math": 70
 	}
 `
+
 Student List	: http://localhost:5000/student/list	[API passed]
 `	[GET]
 `
 
 View Result		: http://localhost:5000/result/view		[API passed]
+
 `	[GET]
 	{
 		"roll": 121264,
@@ -38,4 +44,5 @@ View Result		: http://localhost:5000/result/view		[API passed]
 `
 
 Edit Student	:
+
 Edit Result		: 
