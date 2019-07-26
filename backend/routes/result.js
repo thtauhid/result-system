@@ -2,7 +2,7 @@ const router = require('express').Router()
 let Result = require('../models/result.model')
 
 // Show Result
-router.route('/').get((req, res) => {
+router.route('/view').get((req, res) => {
     Result.find({
             "roll": req.body.roll,
             "reg": req.body.reg
@@ -12,7 +12,7 @@ router.route('/').get((req, res) => {
 })
 
 // Add Result
-router.route('/').post((req, res) => {
+router.route('/add').post((req, res) => {
     const roll = req.body.roll
     const reg = req.body.reg
     const bengali = req.body.bengali
